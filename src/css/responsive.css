@@ -1,0 +1,12 @@
+@media (max-width: 500px) {
+    .container {
+        width: 500px;
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 900px) {
+    .container {
+       width: 80%;
+    }
+}
