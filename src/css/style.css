@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
 
-    background-image: url(./src/assets/fun2o.jpg);
+    background-image: url(./bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -28,9 +28,16 @@ body {
     width: 600px;
     min-width: 400px;
     height: 500px;
-    background-color: #c2c2c2;
-    border-radius: 5px;
+    background-color: #458f51;
     padding: 1rem;
+    
+    
+    box-shadow: 10px 9px 9px -3px rgba(117,117,117,0.94);
+    -webkit-box-shadow: 10px 9px 9px -3px rgba(117,117,117,0.94);
+    -moz-box-shadow: 10px 9px 9px -3px rgba(117,117,117,0.94);
+    backdrop-filter: blur(40px);
+    
+    border-radius: 5px;
 }
 
 /* IMC FORM */
@@ -71,6 +78,8 @@ h2 {
 
 .form-control input {
     padding: 1rem 0.5rem;
+
+    border-radius: 10px;
 }
 
 .action-control {
@@ -83,20 +92,24 @@ h2 {
 button {
     text-transform: uppercase;
     padding: 1rem 1.5rem;
-    background-color: rgb(184, 39, 39);
+    background-color: rgb(184, 104, 39);
     cursor: pointer;
     color: #ffffff;
     border: none;
     opacity: 0.9;
     flex: 1;
+    
+    transition: .2s;
+    border-radius: 10px;
 }
 
 button:hover {
     opacity: 1;
+    transition: .2s;
 }
 
 #clear-btn {
-    background-color: #444;
+    background-color: #351c1c;
 }
 
 /* TABLE */
@@ -159,7 +172,7 @@ button:hover {
 }
 
 .good {
-    color: #458f51;
+    color: #021d06;
 }
 
 .low{
